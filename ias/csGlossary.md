@@ -4,6 +4,11 @@
 **tl;dr 1** -  [Algorithm is a Mapping] = Functional Mapping of Input Data (graph ADT) to Output Data (graph ADT)  
 **tl;dr 2** -  "[Practically everything (_including an algorithm_) is a Graph.][Everything is a graph]"
 
+But **why**? Inspired by 
+ - An example of one of [the simplest types of graphs is a singly linked list!]
+ - From [ZeroToHero] in 60 minutes in Computer Science 
+ - [What is Computer Science?] - as part of student orientation on **day 1** of college
+
 ### Conceptual
 | Term          | Description |
 |---------------|:------------|
@@ -17,12 +22,13 @@
 |Output      | The return value _(s)_ of a function, can be represented as a Graph |
 |Complexity| Computer science also is about optimization; efficient use of time and space; Space and time complexity analysis; [Big O Notation]
 
-Inspired by 
- - An example of one of [the simplest types of graphs is a singly linked list!]
- - From [ZeroToHero] in 60 minutes in Computer Science 
- - [What is Computer Science?] - as part of student orientation on **day 1** of college
+### Trends
+| Term          | Description |
+|---------------|:------------|
+|Machine Learning (ML) | A branch of statistics and computer science; Data mining, one of the categories of ML is enabled by Knowledge Discovery in Data (KDD) which refers to the broad process (_a.k.a._ algorithmic patterns) of finding knowledge (_a.k.a._ patterns) in the Input dataset
 
 ### Programming Related 
+_Theory influences design; design influences programming._
 
 | Term          | Description |
 |---------------|:------------|
@@ -30,7 +36,7 @@ Inspired by
 |**MVC** Pattern | MVC Pattern stands for Model-View-Controller Pattern. This pattern is used to separate application's concerns. Model - Model represents an object or JAVA POJO carrying data. It can also have logic to update controller if its data changes.|
 |Unified Modeling Language| **UML** is a common language for business analysts, software architects and developers used to describe, specify, design, and document existing or new business processes, structure and behavior of artifacts of software systems. An example of a [MVC diagram](#mvc-uml) is provided below.|
 |Object| Objects are the coupling of Function and Data 
-|OOP _(PDS-2)_| Object oriented programming concepts including encapsulation, inheritance and [polymorphism](http://bit.ly/PolyVideoKG) ; a C++ STL graph implementation for a [family tree](http://www.boost.org/doc/libs/1_62_0/libs/graph/example/family-tree-eg.cpp)
+|OOP _(PDS-2)_| Object oriented programming concepts including encapsulation, inheritance and [polymorphism](http://bit.ly/PolyVideoKG) ; by way of an example, here's a C++ STL graph implementation for a [family tree](http://www.boost.org/doc/libs/1_62_0/libs/graph/example/family-tree-eg.cpp)
 |Data Structure _(PDS_1)_| Specific programming structures used for implementing abstract data type like a [graph] ADT; an array, a linked list, a hashmap; here are some new [functional data structures](http://bit.ly/functionalDS)|
 |[Constructs] _(FOCP)_ | Building blocks of a program - there are 7 fundamental ones (variables, sequences, selection, repetition, function (aka sub-routines), indirection and recursion); and then there are [31 variants]
 |Problem sets | A carefully curated set of problems to achieve specific learning outcomes; increase your familiarity C language constructs by tackling the problem set at http://bit.ly/kitepc1  | 
@@ -50,11 +56,12 @@ Inspired by
 |Everything is a Graph| “So in a sense, graphs can give us an equivalent yet complementary view to the object-oriented paradigm. In OO we have objects; in graphs we have nodes. In OO, we have "relations between objects"; in graphical models we have edges. So we can conclude that Everything is a Graph.” http://buff.ly/2fx7JBU 
 |Practically, everything is a graph | Read about the propaganda  [here](http://www.tcl-sfs.uni-tuebingen.de/~cornell/prolog/Propaganda.html) and [here](http://www.tcl-sfs.uni-tuebingen.de/~cornell/prolog/Graphs001.html) as well |
 |Structural Programming|is an archetype to achieve clarity, quality and reduced development time by making extensive use of modularity with only three constructs: sequence, selection and iteration |
-|Why Structural Programming?| It is a precursor to OOP. **Edsger W.Dijkstra** pervasively used [Structural Programming] as a way to avoid [spaghetti code]. It is a logical thinking approach to solve a problem in all areas by applying decomposition to generate a hierarchical structure.|
+|Why Structural Programming?| It is a precursor to OOP. **Edsger W.Dijkstra** pervasively used [Structurpoal Programming] as a way to avoid [spaghetti code]. It is a logical thinking approach to solve a problem in all areas by applying decomposition to generate a hierarchical structure.|
 |Why Functional Programming?| The latest (and final?) paradigm shift to  take advantage of the Utility computing era (aka Cloud Computing) which provides tremendous computing power on tap at exceptionally low cost compared to ownership.
 |Functional programming|  is a programming paradigm that conceives computation as the evaluation of mathematical functions and avoids state and mutable data. Functional programming emphasizes the application of functions, in contrast to imperative programming, which emphasizes changes in state and the execution of sequential commands. Functional programming is defined more by a set of common concerns and themes than any list of distinctions from other paradigms. Often considered important are higher-order and first-class functions, closures, and recursion. Other common features of functional programming languages are continuations, Hindley-Milner type inference systems, non-strict evaluation (including, but not limited to, "laziness"), and monads. |
 
 ### Examples of other useful glossaries
+- [Pointer specific](https://github.com/kgisl/project-ideas/blob/master/ias/pointerGlossary.md)
 - [OOP specific](https://drive.google.com/file/d/0Bwu4iGPfYEufd2htbEtqUThqRWM/view?usp=sharing)
 - [Programming specific](http://www.labautopedia.org/mw/List_of_programming_and_computer_science_terms)
 - [Simplified Computer Science Glossary](https://pdfs.semanticscholar.org/a6a4/0519cc0d2919a3d4818e103466cbe3a1ff3f.pdf) 
@@ -98,4 +105,5 @@ Inspired by
 [Graph algorithms = Iterations + Data Structure?]: https://web.engr.oregonstate.edu/~erwig/papers/GraphAlg=Iter+DS_WG92.pdf
 [Syracuse Algorithm]: http://mathworld.wolfram.com/CollatzProblem.html
 [Structural Programming]: https://www.computer.org/csdl/mags/co/1981/03/01667281.pdf
-[spaghetti code]: https://en.wikipedia.org/wiki/Spaghetti_code
+[spaghetti code]: https://en.wikipedia.org/wiki/Spaghetti_code 
+
